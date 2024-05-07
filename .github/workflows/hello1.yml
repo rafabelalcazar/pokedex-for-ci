@@ -13,3 +13,4 @@ jobs:
       - name: Show date
         run: date
       - run: echo "Hello world"
+      - run: ls -l
