@@ -1,0 +1,14 @@
+name: Show date
+on: 
+  push:
+    branches:
+      - "main"
+
+jobs:
+  hello_world:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Show message
+        run: echo "Hola"
+      - name: Show date
+        run: date
