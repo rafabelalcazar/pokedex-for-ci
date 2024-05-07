@@ -12,3 +12,4 @@ jobs:
         run: echo "Hola"
       - name: Show date
         run: date
+      - run: echo "Hello world"
