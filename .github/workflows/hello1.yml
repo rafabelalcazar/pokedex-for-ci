@@ -5,7 +5,7 @@ on:
       - "main"
 
 jobs:
-  hello_world:
+  hello_world_test:
     runs-on: ubuntu-18.04
     steps:
       - name: Show message
