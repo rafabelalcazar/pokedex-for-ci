@@ -6,7 +6,7 @@ on:
 
 jobs:
   hello_world_test:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - name: Show message
         run: echo "Hola"
